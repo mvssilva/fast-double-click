@@ -1,4 +1,4 @@
-# Fast Double-Click ⏱
+# Fast Double-Click
 
 Aplicação full-stack desenvolvida como desafio técnico para medir e registrar o tempo de reação entre dois cliques consecutivos.
 
@@ -24,30 +24,30 @@ Necessário ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 ### 1. Clonando o repositório
 
 Clone o projeto e acesse a pasta raiz:
-\`\`\`bash
-git clone https://github.com/SEU_USUARIO/fast-double-click.git
+```
+git clone https://github.com/mvssilva/fast-double-click.git
 cd fast-double-click
-\`\`\`
+```
 
 ### 2. Rodando o Back-end (API)
 
 Abra uma aba no seu terminal e execute:
-\`\`\`bash
+```
 cd backend
 npm install
 node server.js
-\`\`\`
+```
 
 > O servidor iniciará na porta **3000** e gerará o arquivo \`registros.json\` automaticamente no primeiro POST.
 
 ### 3. Rodando o Front-end (Interface)
 
 Abra uma **nova aba** no terminal e execute:
-\`\`\`bash
+```
 cd frontend
 npm install
 npm run dev
-\`\`\`
+```
 
 > A aplicação estará disponível no endereço gerado pelo Vite (geralmente \`http://localhost:5173\`).
 
@@ -58,7 +58,7 @@ npm run dev
 |                 1. Estado Inicial                 |                   2. Aguardando Clique                   |
 | :-----------------------------------------------: | :------------------------------------------------------: |
 |      ![Estado Inicial](./assets/image1.png)       |        ![Aguardando Clique](./assets/image2.png)         |
-| A tela inicial limpa antes de qualquer interação. | O botão muda para amarelo indicando a contagem do tempo. |
+| A tela inicial limpa antes de qualquer interação. | O botão muda para azul indicando qua aguarda o segundo click. |
 
 |                            3. Primeiro Resultado                            |                         4. Quebra de Recorde                          |
 | :-------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
@@ -71,8 +71,7 @@ npm run dev
 
 |                                           Visão Geral do Histórico                                            |
 | :-----------------------------------------------------------------------------------------------------------: |
-|                                  ![Histórico Completo](./assets/image5.png)                                   |
-| _Exibição em grid de 5 colunas com a listagem completa (sem filtros) e botão de limpeza isolado visualmente._ |
+|                                  ![Histórico Completo](./assets/image5.png)                                   ||
 
 |                           Filtro de Data (Empty State)                            |                                  Filtro de Ordenação (Ascendente)                                  |
 | :-------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
